@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway&display=swap");
+body {
+  background-image: url("../images/bg-image.jpeg"); }
+
+div[class='container'] {
+  min-height: 700px;
+  width: 80%;
+  margin: auto; }
+  div[class='container'] nav {
+    margin-top: 1%;
+    min-height: 20px;
+    display: flex;
+    flex-direction: row; }
+    div[class='container'] nav div[id="logo"] {
+      width: 60%; }
+      div[class='container'] nav div[id="logo"] img {
+        height: 40px; }
+    div[class='container'] nav div[id="nav-links"] {
+      width: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      div[class='container'] nav div[id="nav-links"] .link {
+        width: 25%;
+        padding-top: 10px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-size: 1.2em; }
+        div[class='container'] nav div[id="nav-links"] .link a {
+          text-decoration: none;
+          color: black; }
+        div[class='container'] nav div[id="nav-links"] .link a:hover {
+          color: gray; }
+  div[class='container'] div[class="presentation"] {
+    width: 46%;
+    min-height: 300px;
+    margin-top: 10%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-justify: inter-word; }
+    div[class='container'] div[class="presentation"] .presentation-1 {
+      font-size: 3.0em; }
+    div[class='container'] div[class="presentation"] .presentation-2 {
+      margin-top: 12%;
+      font-size: 2.4em; }
+
+/*# sourceMappingURL=main.css.map */
