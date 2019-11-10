@@ -1,0 +1,13 @@
+
+.hamburger, div[class="hamburger-menu"] {display: none}
+div[class="hamburger-menu"] {
+  text-align: right;
+  a {
+    text-decoration: none;
+    transition: all 2s linear;
+    color: black;
+    font-family: 'Lobster', cursive;
+    line-height: 1.5em;
+    font-size: 1.3em;
+  }
+}

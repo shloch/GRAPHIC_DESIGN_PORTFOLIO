@@ -3,6 +3,19 @@
 body {
   background-image: url("../images/bg-image.jpeg"); }
 
+.hamburger, div[class="hamburger-menu"] {
+  display: none; }
+
+div[class="hamburger-menu"] {
+  text-align: right; }
+  div[class="hamburger-menu"] a {
+    text-decoration: none;
+    transition: all 2s linear;
+    color: black;
+    font-family: 'Lobster', cursive;
+    line-height: 1.5em;
+    font-size: 1.3em; }
+
 div[class='container'] {
   min-height: 700px;
   width: 80%;
@@ -32,6 +45,11 @@ div[class='container'] {
           color: black; }
         div[class='container'] nav div[id="nav-links"] .link a:hover {
           color: gray; }
+    @media screen and (max-width: 670px) {
+      div[class='container'] nav .link {
+        display: none; }
+      div[class='container'] nav .hamburger {
+        display: block; } }
   div[class='container'] div[class="presentation"] {
     width: 46%;
     min-height: 300px;
@@ -43,5 +61,14 @@ div[class='container'] {
     div[class='container'] div[class="presentation"] .presentation-2 {
       margin-top: 12%;
       font-size: 2.4em; }
+    @media screen and (max-width: 670px) {
+      div[class='container'] div[class="presentation"] {
+        width: 93%;
+        margin-top: 40%; }
+        div[class='container'] div[class="presentation"] .presentation-1 {
+          font-size: 2.4em; }
+        div[class='container'] div[class="presentation"] .presentation-2 {
+          margin-top: 10%;
+          font-size: 1.9em; } }
 
 /*# sourceMappingURL=main.css.map */
