@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 body {
-  background-image: url('../images/bg-image.jpeg');
+  font-family: 'Raleway', sans-serif;
 }
 
 @import 'hamburgerMenu';
 
+// ---constainer = Home page
 div[class='container'] {
   min-height: 700px;
   width: 80%;
@@ -16,4 +17,26 @@ div[class='container'] {
   
 }
 
-// hamburg
+// ---Work link page 
+div[class="work-block"] {
+  @import 'sublink_work_page';
+
+  div[id="gallery"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    .sample {    
+      width: 30.3%;
+      min-height: 280px;
+      padding-top: 2.3%;
+      .sampleImg {
+        img {
+          width:100%;
+          height: 70%;
+        }
+      }
+    }
+  }
+}

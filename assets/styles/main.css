@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 body {
-  background-image: url("../images/bg-image.jpeg"); }
+  font-family: 'Raleway', sans-serif; }
 
 .hamburger, div[class="hamburger-menu"] {
   display: none;
@@ -71,5 +72,34 @@ div[class='container'] {
         div[class='container'] div[class="presentation"] .presentation-2 {
           margin-top: 10%;
           font-size: 1.9em; } }
+
+div[class="work-block"] .sub-link {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 2.4%;
+  margin-bottom: 1%; }
+  div[class="work-block"] .sub-link .link {
+    padding: 2px 7px; }
+    div[class="work-block"] .sub-link .link a {
+      text-decoration: none;
+      color: black;
+      font-weight: 550; }
+    div[class="work-block"] .sub-link .link a:hover {
+      text-decoration: underline; }
+div[class="work-block"] div[id="gallery"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between; }
+  div[class="work-block"] div[id="gallery"] .sample {
+    width: 30.3%;
+    min-height: 280px;
+    padding-top: 2.3%; }
+    div[class="work-block"] div[id="gallery"] .sample .sampleImg img {
+      width: 100%;
+      height: 70%; }
 
 /*# sourceMappingURL=main.css.map */
