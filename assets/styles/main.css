@@ -4,7 +4,8 @@ body {
   background-image: url("../images/bg-image.jpeg"); }
 
 .hamburger, div[class="hamburger-menu"] {
-  display: none; }
+  display: none;
+  color: black; }
 
 div[class="hamburger-menu"] {
   text-align: right; }
@@ -26,11 +27,11 @@ div[class='container'] {
     display: flex;
     flex-direction: row; }
     div[class='container'] nav div[id="logo"] {
-      width: 60%; }
+      width: 40%; }
       div[class='container'] nav div[id="logo"] img {
         height: 40px; }
     div[class='container'] nav div[id="nav-links"] {
-      width: 40%;
+      width: 60%;
       display: flex;
       flex-direction: row;
       justify-content: space-between; }
