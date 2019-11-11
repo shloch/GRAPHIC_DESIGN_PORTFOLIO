@@ -1,0 +1,18 @@
+// footer in work.html page
+
+footer {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-justify: initial;
+  margin-bottom: 7%;
+  .foot-child {
+    width: 23%;
+  }
+  .social-blk {
+    text-align: right;
+    padding-left: 25px;
+  }
+  
+}

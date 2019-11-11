@@ -1,0 +1,25 @@
+div[class="About-block"] {
+  display: flex;
+  flex-direction: column;
+  margin-top: 46%;
+  div[class*="about"] {
+    
+    width: 57%;
+    margin: auto;
+    text-align: center;
+    div[class="email-brick"] {
+      border: 1px solid black;
+      width: 30%;
+      padding: 14px 2px;
+      border-radius: 5px;
+      margin: auto;
+    }
+    div[class="email-brick"]:hover {
+      background-color: black;
+      color: white;
+    }
+    hr {
+      border:1px solid black;
+    }
+  }
+}

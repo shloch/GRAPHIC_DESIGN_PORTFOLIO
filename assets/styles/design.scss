@@ -7,6 +7,7 @@ body {
 
 @import 'hamburgerMenu';
 
+
 // ---constainer = Home page
 div[class='container'] {
   min-height: 700px;
@@ -40,3 +41,7 @@ div[class="work-block"] {
     }
   }
 }
+
+@import 'footer';
+
+@import 'aboutpage';
